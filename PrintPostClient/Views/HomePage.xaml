@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="PrintPostClient.Views.HomePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:PrintPostClient"
+    xmlns:vm="clr-namespace:PrintPostClient.ViewModels"
+    x:DataType="vm:HomeViewModel"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+        <Grid RowDefinitions="*,40">
+            <StackLayout
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Padding="20"
+                Spacing="10">
+
+                <Label
+                    Text="Connexion"
+                    FontSize="24"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+
+                <!-- Email -->
+                <Entry
+                    Placeholder="Email"
+                    Keyboard="Email"
+                    HorizontalOptions="FillAndExpand"
+                    WidthRequest="300"/>
+
+                <!-- Password -->
+                <Entry
+                    Placeholder="Mot de passe"
+                    IsPassword="True"
+                    HorizontalOptions="FillAndExpand" 
+                    WidthRequest="300"/>
+
+                <!-- Login -->
+                <Button
+                    Text="Connexion"
+                    Command="{Binding LoginCommand}"
+                    HorizontalOptions="FillAndExpand"
+                    Style="{StaticResource PrimaryAction}"
+                    WidthRequest="300"/>
+
+            </StackLayout>
+
+            <Grid
+                Grid.Row="1"
+                BackgroundColor="{AppThemeBinding Dark={StaticResource BackgroundDark},
+                                                  Light={StaticResource Primary}}">
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

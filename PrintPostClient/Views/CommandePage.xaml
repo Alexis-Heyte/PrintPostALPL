@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="PrintPostClient.Views.CommandePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:PrintPostClient"
+    xmlns:vm="clr-namespace:PrintPostClient.ViewModels"
+    x:DataType="vm:CommandeViewModel"
+    xmlns:m="clr-namespace:PrintPostALPL.Context.Models;assembly=PrintPostALPL.Context"
+    Title="Commandes"
+    mc:Ignorable="d">
+
+    <StackLayout Padding="10">
+        <Button Text="Nouvelle Commande" Command="{Binding AjouterCommandeCommand}" />
+
+        <CollectionView ItemsSource="{Binding Commandes}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="10">
+                        <Label Text="Commande ID: {Binding IdCommande}" FontAttributes="Bold" />
+                        <Label Text="Nombre de courriers: {Binding NbrCourriers}" />
+                        <Label Text="Montant devisé: {Binding MntDevise, StringFormat='{0:C}'}" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>
