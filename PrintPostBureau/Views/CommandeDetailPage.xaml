@@ -36,6 +36,13 @@
                             Date="{Binding DateDepotReel}" 
                             TextColor="DarkBlue"/>
 
+                <!-- Ajout du calcul de la pénalité -->
+                <Label Text="Pénalité" 
+                       FontAttributes="Bold" 
+                       TextColor="Black" />
+                <Label Text="{Binding Penalite, StringFormat='{0:C}'}" 
+                       TextColor="Red" />
+
                 <!-- Lier le bouton à la commande du ViewModel -->
                 <Button Text="Mettre à jour la date" 
                         Command="{Binding UpdateDateCommand}" 

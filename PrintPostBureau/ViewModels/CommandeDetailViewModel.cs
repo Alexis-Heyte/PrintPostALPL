@@ -47,6 +47,25 @@ namespace PrintPostBureau.ViewModels
             }
         }
 
+        // Propriété pour la Pénalité
+        public decimal? Penalite
+        {
+            get
+            {
+                if (_commande.DateDepotReel.HasValue && _commande.DateDepotSouhaite.HasValue)
+                {
+                    // Calcul de la pénalité seulement si la date réelle est après la date souhaitée
+                    if (_commande.DateDepotReel > _commande.DateDepotSouhaite)
+                    {
+                        TimeSpan delay = _commande.DateDepotReel.Value - _commande.DateDepotSouhaite.Value;
+                        decimal? penaliteParJour = _commande.IdClientNavigation.MntPenalite; // Le montant de pénalité par jour pour ce client
+                        return penaliteParJour * (decimal)delay.TotalDays;
+                    }
+                }
+                return 0;
+            }
+        }
+
         // Commande pour mettre à jour la date de dépôt réelle
         public ICommand UpdateDateCommand { get; }
 

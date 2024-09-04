@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-09-04T18:40:04.820</Modified>
+      <Modified>2024-09-04T21:50:08.030</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PrintPostBureau.dll">
       <PackagePath>PrintPostBureau.dll</PackagePath>
-      <Modified>2024-09-04T18:40:03.847</Modified>
+      <Modified>2024-09-04T21:50:06.774</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PrintPostBureau.exe</PackagePath>
-      <Modified>2024-09-04T18:40:03.433</Modified>
+      <Modified>2024-09-04T21:50:06.401</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
