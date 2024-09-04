@@ -28,7 +28,7 @@ public partial class PrintPostAlplContext : DbContext
     public virtual DbSet<Feuille> Feuilles { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Server=MSI\\SQLEXPRESS;Database=PrintPostALPL;Integrated Security=SSPI;TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Server=WINDOWS;Database=PrintPostALPL;Integrated Security=SSPI;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

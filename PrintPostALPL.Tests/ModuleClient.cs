@@ -21,12 +21,13 @@ namespace PrintPostALPL.Tests
         }
 
         [Theory]
-        [InlineData(short.MinValue, false)]
-        [InlineData(0, true)]
+        [InlineData(int.MinValue, false)]
+        [InlineData(0, false)]
         [InlineData(1, true)]
         [InlineData(2, true)]
-        [InlineData(short.MaxValue, false)]
-        public void TypeFeuilles(short type, bool attendu)
+        [InlineData(3, true)]
+        [InlineData(int.MaxValue, false)]
+        public void TypeFeuilles(int type, bool attendu)
         {
             Assert.True(attendu == Verifier.TypeFeuille(type));
         }
@@ -41,6 +42,44 @@ namespace PrintPostALPL.Tests
         public void NbFeuillesParCourrier(int nb, bool attendu)
         {
             Assert.True(attendu == Verifier.NbFeuillesParCourriers(nb));
+        }
+
+        [Theory]
+        [InlineData(short.MinValue, false)]
+        [InlineData(0, false)]
+        [InlineData(1, true)]
+        [InlineData(2, true)]
+        [InlineData(short.MaxValue, false)]
+        public void TypeEncres(short type, bool attendu)
+        {
+            Assert.True(attendu == Verifier.TypeEncre(type));
+        }
+
+        [Theory]
+        [InlineData(short.MinValue, false)]
+        [InlineData(0, false)]
+        [InlineData(1, true)]
+        [InlineData(2, true)]
+        [InlineData(3, true)]
+        [InlineData(4, true)]
+        [InlineData(5, true)]
+        [InlineData(short.MaxValue, false)]
+        public void TypeAffranchissements(short type, bool attendu)
+        {
+            Assert.True(attendu == Verifier.TypeAffranchissement(type));
+        }
+
+        [Theory]
+        [InlineData(short.MinValue, false)]
+        [InlineData(0, false)]
+        [InlineData(1, true)]
+        [InlineData(2, true)]
+        [InlineData(3, true)]
+        [InlineData(4, true)]
+        [InlineData(5, false)]
+        public void TypeEnveloppe(short type, bool attendu)
+        {
+            Assert.True(attendu == Verifier.TypeEnveloppe(type));
         }
     }
 }
