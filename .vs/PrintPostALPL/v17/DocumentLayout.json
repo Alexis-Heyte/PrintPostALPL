@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Leo\\source\\repos\\PrintPostALPL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF12FFEB-57C6-484F-8065-93256E67FA12}|PrintPostALPL.Tests\\PrintPostALPL.Tests.csproj|c:\\users\\leo\\source\\repos\\printpostalpl\\printpostalpl.tests\\moduleclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF12FFEB-57C6-484F-8065-93256E67FA12}|PrintPostALPL.Tests\\PrintPostALPL.Tests.csproj|solutionrelative:printpostalpl.tests\\moduleclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7094A470-D94D-4EE1-B10C-6A4B1209266F}|PrintPostALPL.Context\\PrintPostALPL.Context.csproj|c:\\users\\leo\\source\\repos\\printpostalpl\\printpostalpl.context\\verifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7094A470-D94D-4EE1-B10C-6A4B1209266F}|PrintPostALPL.Context\\PrintPostALPL.Context.csproj|solutionrelative:printpostalpl.context\\verifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7094A470-D94D-4EE1-B10C-6A4B1209266F}|PrintPostALPL.Context\\PrintPostALPL.Context.csproj|c:\\users\\leo\\source\\repos\\printpostalpl\\printpostalpl.context\\models\\printpostalplcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7094A470-D94D-4EE1-B10C-6A4B1209266F}|PrintPostALPL.Context\\PrintPostALPL.Context.csproj|solutionrelative:printpostalpl.context\\models\\printpostalplcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF12FFEB-57C6-484F-8065-93256E67FA12}|PrintPostALPL.Tests\\PrintPostALPL.Tests.csproj|c:\\users\\leo\\source\\repos\\printpostalpl\\printpostalpl.tests\\moduleclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF12FFEB-57C6-484F-8065-93256E67FA12}|PrintPostALPL.Tests\\PrintPostALPL.Tests.csproj|solutionrelative:printpostalpl.tests\\moduleclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,39 +54,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PrintPostAlplContext.cs",
-              "DocumentMoniker": "C:\\Users\\Leo\\source\\repos\\PrintPostALPL\\PrintPostALPL.Context\\Models\\PrintPostAlplContext.cs",
-              "RelativeDocumentMoniker": "PrintPostALPL.Context\\Models\\PrintPostAlplContext.cs",
-              "ToolTip": "C:\\Users\\Leo\\source\\repos\\PrintPostALPL\\PrintPostALPL.Context\\Models\\PrintPostAlplContext.cs",
-              "RelativeToolTip": "PrintPostALPL.Context\\Models\\PrintPostAlplContext.cs",
-              "ViewState": "AgIAABMAAACA/////38VwB4AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T11:27:39.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Verifier.cs",
               "DocumentMoniker": "C:\\Users\\Leo\\source\\repos\\PrintPostALPL\\PrintPostALPL.Context\\Verifier.cs",
               "RelativeDocumentMoniker": "PrintPostALPL.Context\\Verifier.cs",
               "ToolTip": "C:\\Users\\Leo\\source\\repos\\PrintPostALPL\\PrintPostALPL.Context\\Verifier.cs",
               "RelativeToolTip": "PrintPostALPL.Context\\Verifier.cs",
-              "ViewState": "AgIAADMAAACA/f////8NwDwAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAyMzMzEwcwF0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T07:47:39.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ModuleClient.cs",
               "DocumentMoniker": "C:\\Users\\Leo\\source\\repos\\PrintPostALPL\\PrintPostALPL.Tests\\ModuleClient.cs",
               "RelativeDocumentMoniker": "PrintPostALPL.Tests\\ModuleClient.cs",
               "ToolTip": "C:\\Users\\Leo\\source\\repos\\PrintPostALPL\\PrintPostALPL.Tests\\ModuleClient.cs",
               "RelativeToolTip": "PrintPostALPL.Tests\\ModuleClient.cs",
-              "ViewState": "AgIAAB0AAADgMjMzM7MrwBsAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAABAzMzMzEwmwFwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T07:46:43.753Z",
               "EditorCaption": ""

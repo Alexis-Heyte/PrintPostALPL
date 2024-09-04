@@ -81,5 +81,16 @@ namespace PrintPostALPL.Tests
         {
             Assert.True(attendu == Verifier.TypeEnveloppe(type));
         }
+
+        [Theory]
+        [InlineData("04/09/2024", "04/09/2024", false)]
+        [InlineData("05/09/2024", "04/09/2024", false)]
+        [InlineData("06/09/2024", "04/09/2024", false)]
+        [InlineData("07/09/2024", "04/09/2024", true)]
+        [InlineData("08/09/2024", "04/09/2024", true)]
+        public void DateDepot(String dateDepot, String dateDemande, bool attendu)
+        {
+            Assert.True(attendu == Verifier.DateDepot(DateOnly.Parse(dateDepot), DateOnly.Parse(dateDemande)));
+        }
     }
 }

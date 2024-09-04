@@ -82,5 +82,16 @@ namespace PrintPostALPL.Context
             var enveloppes = DbContext.Enveloppes.Where(m => m.IdEnveloppe == m.IdEnveloppe).ToList();
             return enveloppes.Any(enveloppe => enveloppe.IdEnveloppe == type);
         }
+
+        static public bool DateDepot(DateOnly date)
+        {
+            return DateDepot(date, DateOnly.FromDateTime(DateTime.Now));
+        }
+
+        static public bool DateDepot(DateOnly dateDepot, DateOnly dateDemande)
+        {
+            DateOnly dateLimite = dateDemande.AddDays(3);
+            return dateDepot >= dateLimite;
+        }
     }
 }
