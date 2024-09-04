@@ -36,6 +36,30 @@ DECLARE @IdEncre INT = (SELECT IdEncre FROM Encre WHERE nom = 'Couleur');
 DECLARE @IdEnveloppe INT = (SELECT IdEnveloppe FROM Enveloppe WHERE taille = 'Petite' AND logo = 1);
 DECLARE @IdAffranchissement INT = (SELECT IdAffranchissement FROM Affranchissement WHERE nom = 'Urgent');
 
--- Insertion de la commande
+-- Calcul du montant
+DECLARE @NbrCourriers INT = 4500;
+DECLARE @NbrFeuillets INT = 2;
+
+DECLARE @PrixFeuille DECIMAL(10,2) = (SELECT prix FROM Feuille WHERE IdFeuille = @IdFeuille);
+DECLARE @PrixEncre DECIMAL(10,2) = (SELECT prix FROM Encre WHERE IdEncre = @IdEncre);
+DECLARE @PrixEnveloppe DECIMAL(10,2) = (SELECT prix FROM Enveloppe WHERE IdEnveloppe = @IdEnveloppe);
+DECLARE @PrixAffranchissement DECIMAL(10,2) = (SELECT prix20gOuMoins FROM Affranchissement WHERE IdAffranchissement = @IdAffranchissement);
+
+-- Calcul des coûts individuels
+DECLARE @CoutFeuilles DECIMAL(18,2) = @NbrCourriers * @NbrFeuillets * @PrixFeuille / 1000;
+DECLARE @CoutEncre DECIMAL(18,2) = @NbrCourriers * @NbrFeuillets * @PrixEncre / 1000;
+DECLARE @CoutEnveloppe DECIMAL(18,2) = @NbrCourriers * @PrixEnveloppe / 1000;
+DECLARE @CoutAffranchissement DECIMAL(18,2) = @NbrCourriers * @PrixAffranchissement;
+
+-- Calcul du total sans marge
+DECLARE @CoutTotal DECIMAL(18,2) = @CoutFeuilles + @CoutEncre + @CoutEnveloppe + @CoutAffranchissement;
+
+-- Application de la marge de 20%
+DECLARE @Marge DECIMAL(18,2) = @CoutTotal * 0.20;
+DECLARE @MntDevise DECIMAL(18,2) = @CoutTotal + @Marge;
+
+-- Insertion de la commande avec le calcul du montant
 INSERT INTO Commande (nbrCourriers, nbrFeuillets, dateCreation, dateDepotSouhaite, dateDepotReel, mntDevise, mntFacture, IdAffranchissement, IdEnveloppe, IdEncre, IdFeuille, IdClient) 
-VALUES (4500, 2, '2020-12-10 00:00:00', '2020-12-14 00:00:00', NULL, 4806.28, NULL, @IdAffranchissement, @IdEnveloppe, @IdEncre, @IdFeuille, @IdClient);
+VALUES (@NbrCourriers, @NbrFeuillets, '2020-12-10 00:00:00', '2020-12-14 00:00:00', NULL, @MntDevise, NULL, @IdAffranchissement, @IdEnveloppe, @IdEncre, @IdFeuille, @IdClient);
+
+

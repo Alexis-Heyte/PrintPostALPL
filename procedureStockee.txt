@@ -16,12 +16,10 @@ BEGIN
     DECLARE @IdAffranchissement INT;
 
     -- Générer des valeurs aléatoires pour les colonnes de la table Commande
-    DECLARE @nbrCourriers SMALLINT = FLOOR(RAND() * (5000 - 1000 + 1)) + 1000; -- entre 1000 et 5000 courriers
-    DECLARE @nbrFeuillets SMALLINT = FLOOR(RAND() * (5 - 1 + 1)) + 1; -- entre 1 et 5 feuillets
-    DECLARE @dateCreation DATETIME2 = DATEADD(DAY, -FLOOR(RAND() * 30), GETDATE()); -- une date de création aléatoire dans les 30 derniers jours
-    DECLARE @dateDepotSouhaite DATETIME2 = DATEADD(DAY, FLOOR(RAND() * 10), @dateCreation); -- date souhaitée entre 0 et 10 jours après la création
-    DECLARE @mntDevise DECIMAL(18,2) = RAND() * (10000 - 1000) + 1000; -- montant en devise aléatoire entre 1000 et 10000
-    DECLARE @mntFacture DECIMAL(18,2) = NULL; -- mntFacture initialisé à NULL
+    DECLARE @NbrCourriers SMALLINT = FLOOR(RAND() * (5000 - 1000 + 1)) + 1000; -- entre 1000 et 5000 courriers
+    DECLARE @NbrFeuillets SMALLINT = FLOOR(RAND() * (5 - 1 + 1)) + 1; -- entre 1 et 5 feuillets
+    DECLARE @DateCreation DATETIME2 = DATEADD(DAY, -FLOOR(RAND() * 30), GETDATE()); -- une date de création aléatoire dans les 30 derniers jours
+    DECLARE @DateDepotSouhaite DATETIME2 = DATEADD(DAY, FLOOR(RAND() * 10), @DateCreation); -- date souhaitée entre 0 et 10 jours après la création
 
     -- Récupérer des Id aléatoires depuis les autres tables
     SET @IdClient = (SELECT TOP 1 IdClient FROM Client ORDER BY NEWID());
@@ -30,7 +28,26 @@ BEGIN
     SET @IdEnveloppe = (SELECT TOP 1 IdEnveloppe FROM Enveloppe ORDER BY NEWID());
     SET @IdAffranchissement = (SELECT TOP 1 IdAffranchissement FROM Affranchissement ORDER BY NEWID());
 
-    -- Insertion de la commande avec les valeurs aléatoires
+    -- Récupération des prix pour le calcul du montant
+    DECLARE @PrixFeuille DECIMAL(10,2) = (SELECT prix FROM Feuille WHERE IdFeuille = @IdFeuille);
+    DECLARE @PrixEncre DECIMAL(10,2) = (SELECT prix FROM Encre WHERE IdEncre = @IdEncre);
+    DECLARE @PrixEnveloppe DECIMAL(10,2) = (SELECT prix FROM Enveloppe WHERE IdEnveloppe = @IdEnveloppe);
+    DECLARE @PrixAffranchissement DECIMAL(10,2) = (SELECT prix20gOuMoins FROM Affranchissement WHERE IdAffranchissement = @IdAffranchissement);
+
+    -- Calcul des coûts individuels
+    DECLARE @CoutFeuilles DECIMAL(18,2) = @NbrCourriers * @NbrFeuillets * @PrixFeuille / 1000;
+    DECLARE @CoutEncre DECIMAL(18,2) = @NbrCourriers * @NbrFeuillets * @PrixEncre / 1000;
+    DECLARE @CoutEnveloppe DECIMAL(18,2) = @NbrCourriers * @PrixEnveloppe / 1000;
+    DECLARE @CoutAffranchissement DECIMAL(18,2) = @NbrCourriers * @PrixAffranchissement;
+
+    -- Calcul du total sans marge
+    DECLARE @CoutTotal DECIMAL(18,2) = @CoutFeuilles + @CoutEncre + @CoutEnveloppe + @CoutAffranchissement;
+
+    -- Application de la marge de 20%
+    DECLARE @Marge DECIMAL(18,2) = @CoutTotal * 0.20;
+    DECLARE @MntDevise DECIMAL(18,2) = @CoutTotal + @Marge;
+
+    -- Insertion de la commande avec le montant calculé
     INSERT INTO Commande (nbrCourriers, nbrFeuillets, dateCreation, dateDepotSouhaite, dateDepotReel, mntDevise, mntFacture, IdAffranchissement, IdEnveloppe, IdEncre, IdFeuille, IdClient)
-    VALUES (@nbrCourriers, @nbrFeuillets, @dateCreation, @dateDepotSouhaite, NULL, @mntDevise, @mntFacture, @IdAffranchissement, @IdEnveloppe, @IdEncre, @IdFeuille, @IdClient);
+    VALUES (@NbrCourriers, @NbrFeuillets, @DateCreation, @DateDepotSouhaite, NULL, @MntDevise, NULL, @IdAffranchissement, @IdEnveloppe, @IdEncre, @IdFeuille, @IdClient);
 END;
