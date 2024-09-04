@@ -12,7 +12,6 @@
 
     <ContentPage.BackgroundColor>
         <Color>#eef2f3</Color>
-        <!-- Very light blue for the background -->
     </ContentPage.BackgroundColor>
 
     <ContentPage.Content>
@@ -23,7 +22,7 @@
                    HorizontalOptions="Center" 
                    TextColor="DarkBlue"/>
 
-            <StackLayout Padding="20" Spacing="20">
+            <StackLayout>
                 <Label Text="Date de Dépôt Souhaitée" 
                        FontAttributes="Bold"
                        TextColor="Black"/>
@@ -37,15 +36,9 @@
                             Date="{Binding DateDepotReel}" 
                             TextColor="DarkBlue"/>
 
-                <!-- Affichage de la pénalité -->
-                <Label Text="Pénalité" 
-                       FontAttributes="Bold"
-                       TextColor="Black"/>
-                <Label Text="{Binding Penalite, StringFormat='{0:C}'}" 
-                       TextColor="Red"/>
-                
+                <!-- Lier le bouton à la commande du ViewModel -->
                 <Button Text="Mettre à jour la date" 
-                        Clicked="OnUpdateDateClicked" 
+                        Command="{Binding UpdateDateCommand}" 
                         BackgroundColor="DarkBlue" 
                         TextColor="White" />
             </StackLayout>

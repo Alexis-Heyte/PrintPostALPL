@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-09-04T14:04:36.029</Modified>
+      <Modified>2024-09-04T18:40:04.820</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-09-04T12:46:37.022</Modified>
+      <Modified>2024-09-04T18:40:04.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PrintPostBureau.runtimeconfig.json">
       <PackagePath>PrintPostBureau.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PrintPostBureau.dll">
       <PackagePath>PrintPostBureau.dll</PackagePath>
-      <Modified>2024-09-04T14:04:34.856</Modified>
+      <Modified>2024-09-04T18:40:03.847</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PrintPostBureau.exe</PackagePath>
-      <Modified>2024-09-04T14:04:34.451</Modified>
+      <Modified>2024-09-04T18:40:03.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -532,7 +532,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\PrintPostBureau.deps.json">
       <PackagePath>PrintPostBureau.deps.json</PackagePath>
-      <Modified>2024-09-04T12:46:37.200</Modified>
+      <Modified>2024-09-04T18:40:04.723</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\.nuget\packages\humanizer.core\2.14.1\lib\net6.0\Humanizer.dll">
       <PackagePath>Humanizer.dll</PackagePath>

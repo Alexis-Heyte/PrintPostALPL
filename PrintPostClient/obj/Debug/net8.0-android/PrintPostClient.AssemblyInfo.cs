@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrintPostClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b7c7634aa6c1530e2105397e65515238a29b44bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0a2f10788d72391b59fe2b320b0ae8f128ec9fb3")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrintPostClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrintPostClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

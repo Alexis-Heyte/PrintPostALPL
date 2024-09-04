@@ -14,7 +14,7 @@
     <ContentPage.BackgroundColor>
         <Color>#f5f5f5</Color>
     </ContentPage.BackgroundColor>
-    
+
     <ContentPage.Content>
         <StackLayout Padding="20" Spacing="20">
 
