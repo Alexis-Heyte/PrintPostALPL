@@ -1,6 +1,9 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
-using PrintPostALPL.Context.Models;
 using System;
+using System.Threading.Tasks;
+using System.Windows.Input; // Assurez-vous que cette directive est présente
+using PrintPostALPL.Context.Models;
+using Microsoft.Maui.Controls; // Assurez-vous que cette directive est présente
 
 namespace PrintPostBureau.ViewModels
 {
@@ -8,9 +11,12 @@ namespace PrintPostBureau.ViewModels
     {
         private Commande _commande;
 
+        // Constructeur
         public CommandeDetailViewModel(Commande commande)
         {
             _commande = commande;
+            // Initialisation de la commande UpdateDate
+            UpdateDateCommand = new Command(async () => await UpdateDateAsync());
         }
 
         // Propriété pour la Date de dépôt souhaitée
@@ -37,13 +43,41 @@ namespace PrintPostBureau.ViewModels
                 {
                     _commande.DateDepotReel = value;
                     OnPropertyChanged(nameof(DateDepotReel));
-                    OnPropertyChanged(nameof(Penalite)); // Met à jour la pénalité
                 }
             }
         }
 
-        // Propriété pour la Pénalité
-        public decimal? Penalite
+        // Commande pour mettre à jour la date de dépôt réelle
+        public ICommand UpdateDateCommand { get; }
+
+        // Méthode pour mettre à jour la date de dépôt réelle
+        private async Task UpdateDateAsync()
+        {
+            if (DateDepotReel < DateTime.Now)
+            {
+                await Application.Current.MainPage.DisplayAlert("Erreur", "La date doit être future.", "OK");
+                return;
+            }
+
+            using (var context = new PrintPostAlplContext())
+            {
+                var commandeToUpdate = context.Commandes.Find(_commande.IdCommande);
+                if (commandeToUpdate != null)
+                {
+                    commandeToUpdate.DateDepotReel = DateDepotReel;
+                    context.SaveChanges();
+                }
+            }
+
+            await Application.Current.MainPage.DisplayAlert("Succès", "La date a été mise à jour.", "OK");
+            await Application.Current.MainPage.Navigation.PopAsync();
+        }
+    }
+}
+
+
+/*// Propriété pour la Pénalité
+public decimal? Penalite
         {
             get
             {
@@ -61,4 +95,4 @@ namespace PrintPostBureau.ViewModels
             }
         }
     }
-}
+}*/

@@ -1,5 +1,6 @@
 ﻿using PrintPostALPL.Context.Models;
 using Microsoft.EntityFrameworkCore;
+using PrintPostBureau.ViewModels;
 
 namespace PrintPostBureau.Views
 {
@@ -8,19 +9,7 @@ namespace PrintPostBureau.Views
         public CommandeListPage()
         {
             InitializeComponent();
-            LoadCommandes();
-        }
-
-        private void LoadCommandes()
-        {
-            using (var context = new PrintPostAlplContext())
-            {
-                var commandes = context.Commandes
-                                       .Include(c => c.IdClientNavigation)
-                                       .ToList();
-
-                CommandeListView.ItemsSource = commandes;
-            }
+            BindingContext = new CommandeListViewModel();  // Lier au ViewModel
         }
 
         private async void OnDetailButtonClicked(object sender, EventArgs e)

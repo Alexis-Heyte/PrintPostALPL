@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\29ped\\OneDrive\\Documents\\GitHub\\PrintPostALPL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5300977A-DFDF-4538-97F5-31AE642CC18A}|PrintPostBureau\\PrintPostBureau.csproj|c:\\users\\29ped\\onedrive\\documents\\github\\printpostalpl\\printpostbureau\\viewmodels\\commandedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5300977A-DFDF-4538-97F5-31AE642CC18A}|PrintPostBureau\\PrintPostBureau.csproj|solutionrelative:printpostbureau\\viewmodels\\commandedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5300977A-DFDF-4538-97F5-31AE642CC18A}|PrintPostBureau\\PrintPostBureau.csproj|c:\\users\\29ped\\onedrive\\documents\\github\\printpostalpl\\printpostbureau\\views\\commandedetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5300977A-DFDF-4538-97F5-31AE642CC18A}|PrintPostBureau\\PrintPostBureau.csproj|solutionrelative:printpostbureau\\views\\commandedetailpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7094A470-D94D-4EE1-B10C-6A4B1209266F}|PrintPostALPL.Context\\PrintPostALPL.Context.csproj|c:\\users\\29ped\\onedrive\\documents\\github\\printpostalpl\\printpostalpl.context\\models\\commande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7094A470-D94D-4EE1-B10C-6A4B1209266F}|PrintPostALPL.Context\\PrintPostALPL.Context.csproj|solutionrelative:printpostalpl.context\\models\\commande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5300977A-DFDF-4538-97F5-31AE642CC18A}|PrintPostBureau\\PrintPostBureau.csproj|c:\\users\\29ped\\onedrive\\documents\\github\\printpostalpl\\printpostbureau\\views\\commandedetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5300977A-DFDF-4538-97F5-31AE642CC18A}|PrintPostBureau\\PrintPostBureau.csproj|solutionrelative:printpostbureau\\views\\commandedetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5300977A-DFDF-4538-97F5-31AE642CC18A}|PrintPostBureau\\PrintPostBureau.csproj|c:\\users\\29ped\\onedrive\\documents\\github\\printpostalpl\\printpostbureau\\viewmodels\\commandedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5300977A-DFDF-4538-97F5-31AE642CC18A}|PrintPostBureau\\PrintPostBureau.csproj|solutionrelative:printpostbureau\\viewmodels\\commandedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,40 +59,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Commande.cs",
-              "DocumentMoniker": "C:\\Users\\29ped\\OneDrive\\Documents\\GitHub\\PrintPostALPL\\PrintPostALPL.Context\\Models\\Commande.cs",
-              "RelativeDocumentMoniker": "PrintPostALPL.Context\\Models\\Commande.cs",
-              "ToolTip": "C:\\Users\\29ped\\OneDrive\\Documents\\GitHub\\PrintPostALPL\\PrintPostALPL.Context\\Models\\Commande.cs",
-              "RelativeToolTip": "PrintPostALPL.Context\\Models\\Commande.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA/wCMAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T13:59:59.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CommandeDetailPage.xaml",
-              "DocumentMoniker": "C:\\Users\\29ped\\OneDrive\\Documents\\GitHub\\PrintPostALPL\\PrintPostBureau\\Views\\CommandeDetailPage.xaml",
-              "RelativeDocumentMoniker": "PrintPostBureau\\Views\\CommandeDetailPage.xaml",
-              "ToolTip": "C:\\Users\\29ped\\OneDrive\\Documents\\GitHub\\PrintPostALPL\\PrintPostBureau\\Views\\CommandeDetailPage.xaml",
-              "RelativeToolTip": "PrintPostBureau\\Views\\CommandeDetailPage.xaml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACsAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-04T13:59:37.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "CommandeDetailViewModel.cs",
               "DocumentMoniker": "C:\\Users\\29ped\\OneDrive\\Documents\\GitHub\\PrintPostALPL\\PrintPostBureau\\ViewModels\\CommandeDetailViewModel.cs",
               "RelativeDocumentMoniker": "PrintPostBureau\\ViewModels\\CommandeDetailViewModel.cs",
               "ToolTip": "C:\\Users\\29ped\\OneDrive\\Documents\\GitHub\\PrintPostALPL\\PrintPostBureau\\ViewModels\\CommandeDetailViewModel.cs",
               "RelativeToolTip": "PrintPostBureau\\ViewModels\\CommandeDetailViewModel.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAkwCYAAAAUAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAmwFIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T13:01:17.328Z",
+              "WhenOpened": "2024-09-04T18:38:56.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CommandeDetailPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\29ped\\OneDrive\\Documents\\GitHub\\PrintPostALPL\\PrintPostBureau\\Views\\CommandeDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "PrintPostBureau\\Views\\CommandeDetailPage.xaml.cs",
+              "ToolTip": "C:\\Users\\29ped\\OneDrive\\Documents\\GitHub\\PrintPostALPL\\PrintPostBureau\\Views\\CommandeDetailPage.xaml.cs",
+              "RelativeToolTip": "PrintPostBureau\\Views\\CommandeDetailPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T18:38:27.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CommandeDetailPage.xaml",
+              "DocumentMoniker": "C:\\Users\\29ped\\OneDrive\\Documents\\GitHub\\PrintPostALPL\\PrintPostBureau\\Views\\CommandeDetailPage.xaml",
+              "RelativeDocumentMoniker": "PrintPostBureau\\Views\\CommandeDetailPage.xaml",
+              "ToolTip": "C:\\Users\\29ped\\OneDrive\\Documents\\GitHub\\PrintPostALPL\\PrintPostBureau\\Views\\CommandeDetailPage.xaml",
+              "RelativeToolTip": "PrintPostBureau\\Views\\CommandeDetailPage.xaml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAcwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-04T18:38:10.551Z",
               "EditorCaption": ""
             }
           ]
