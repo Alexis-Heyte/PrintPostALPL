@@ -2,11 +2,24 @@
 {
     public partial class LoginPage : ContentPage
     {
-        public LoginPage(LoginViewModel viewModel)
+        public LoginPage()
         {
             InitializeComponent();
-            viewModel.Title = "Login";
-            BindingContext = viewModel;
+        }
+
+        private void OnLoginClicked(object sender, EventArgs e)
+        {
+            string username = UsernameEntry.Text;
+            string password = PasswordEntry.Text;
+
+            if (username == "printpost" && password == "1234")
+            {
+                Application.Current.MainPage = new NavigationPage(new CommandeListPage());
+            }
+            else
+            {
+                DisplayAlert("Erreur", "Identifiants incorrects", "OK");
+            }
         }
     }
 }

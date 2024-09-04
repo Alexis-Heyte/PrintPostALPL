@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj": {}
+    "C:\\Users\\29ped\\OneDrive\\Documents\\GitHub\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj": {
+    "C:\\Users\\29ped\\OneDrive\\Documents\\GitHub\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj",
+        "projectUniqueName": "C:\\Users\\29ped\\OneDrive\\Documents\\GitHub\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj",
         "projectName": "PrintPostALPL.Context",
-        "projectPath": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj",
-        "packagesPath": "C:\\Users\\Leo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Context\\obj\\",
+        "projectPath": "C:\\Users\\29ped\\OneDrive\\Documents\\GitHub\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj",
+        "packagesPath": "C:\\Users\\29ped\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\29ped\\OneDrive\\Documents\\GitHub\\PrintPostALPL\\PrintPostALPL.Context\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Leo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\29ped\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -87,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
