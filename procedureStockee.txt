@@ -1,0 +1,36 @@
+USE [PrintPostALPL]
+GO
+/****** Object:  StoredProcedure [dbo].[InsererCommandeAleatoire]    Script Date: 04/09/2024 13:41:00 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[InsererCommandeAleatoire]
+AS
+BEGIN
+    -- Déclaration des variables pour les clés étrangères
+    DECLARE @IdClient INT;
+    DECLARE @IdFeuille INT;
+    DECLARE @IdEncre INT;
+    DECLARE @IdEnveloppe INT;
+    DECLARE @IdAffranchissement INT;
+
+    -- Générer des valeurs aléatoires pour les colonnes de la table Commande
+    DECLARE @nbrCourriers SMALLINT = FLOOR(RAND() * (5000 - 1000 + 1)) + 1000; -- entre 1000 et 5000 courriers
+    DECLARE @nbrFeuillets SMALLINT = FLOOR(RAND() * (5 - 1 + 1)) + 1; -- entre 1 et 5 feuillets
+    DECLARE @dateCreation DATETIME2 = DATEADD(DAY, -FLOOR(RAND() * 30), GETDATE()); -- une date de création aléatoire dans les 30 derniers jours
+    DECLARE @dateDepotSouhaite DATETIME2 = DATEADD(DAY, FLOOR(RAND() * 10), @dateCreation); -- date souhaitée entre 0 et 10 jours après la création
+    DECLARE @mntDevise DECIMAL(18,2) = RAND() * (10000 - 1000) + 1000; -- montant en devise aléatoire entre 1000 et 10000
+    DECLARE @mntFacture DECIMAL(18,2) = NULL; -- mntFacture initialisé à NULL
+
+    -- Récupérer des Id aléatoires depuis les autres tables
+    SET @IdClient = (SELECT TOP 1 IdClient FROM Client ORDER BY NEWID());
+    SET @IdFeuille = (SELECT TOP 1 IdFeuille FROM Feuille ORDER BY NEWID());
+    SET @IdEncre = (SELECT TOP 1 IdEncre FROM Encre ORDER BY NEWID());
+    SET @IdEnveloppe = (SELECT TOP 1 IdEnveloppe FROM Enveloppe ORDER BY NEWID());
+    SET @IdAffranchissement = (SELECT TOP 1 IdAffranchissement FROM Affranchissement ORDER BY NEWID());
+
+    -- Insertion de la commande avec les valeurs aléatoires
+    INSERT INTO Commande (nbrCourriers, nbrFeuillets, dateCreation, dateDepotSouhaite, dateDepotReel, mntDevise, mntFacture, IdAffranchissement, IdEnveloppe, IdEncre, IdFeuille, IdClient)
+    VALUES (@nbrCourriers, @nbrFeuillets, @dateCreation, @dateDepotSouhaite, NULL, @mntDevise, @mntFacture, @IdAffranchissement, @IdEnveloppe, @IdEncre, @IdFeuille, @IdClient);
+END;

@@ -12,65 +12,77 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PrintPostBureau
-build_property.ProjectDir = C:\Users\Leo\Source\Repos\PrintPostALPL\PrintPostBureau\
+build_property.ProjectDir = C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/Leo/Source/Repos/PrintPostALPL/PrintPostBureau/App.xaml]
+[C:/Users/29ped/OneDrive/Documents/GitHub/PrintPostALPL/PrintPostBureau/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PrintPostBureau.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Leo/Source/Repos/PrintPostALPL/PrintPostBureau/AppShell.xaml]
+[C:/Users/29ped/OneDrive/Documents/GitHub/PrintPostALPL/PrintPostBureau/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PrintPostBureau.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Leo/Source/Repos/PrintPostALPL/PrintPostBureau/Controls/DateTimePicker.xaml]
+[C:/Users/29ped/OneDrive/Documents/GitHub/PrintPostALPL/PrintPostBureau/Controls/DateTimePicker.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PrintPostBureau.Controls.DateTimePicker.xaml
 build_metadata.AdditionalFiles.TargetPath = Controls\DateTimePicker.xaml
 build_metadata.AdditionalFiles.RelativePath = Controls\DateTimePicker.xaml
 
-[C:/Users/Leo/Source/Repos/PrintPostALPL/PrintPostBureau/Resources/Colors.xaml]
+[C:/Users/29ped/OneDrive/Documents/GitHub/PrintPostALPL/PrintPostBureau/Resources/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PrintPostBureau.Resources.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Colors.xaml
 
-[C:/Users/Leo/Source/Repos/PrintPostALPL/PrintPostBureau/Resources/Styles.xaml]
+[C:/Users/29ped/OneDrive/Documents/GitHub/PrintPostALPL/PrintPostBureau/Resources/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PrintPostBureau.Resources.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles.xaml
 
-[C:/Users/Leo/Source/Repos/PrintPostALPL/PrintPostBureau/Views/EventsPage.xaml]
+[C:/Users/29ped/OneDrive/Documents/GitHub/PrintPostALPL/PrintPostBureau/Views/CommandeDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PrintPostBureau.Views.CommandeDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CommandeDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CommandeDetailPage.xaml
+
+[C:/Users/29ped/OneDrive/Documents/GitHub/PrintPostALPL/PrintPostBureau/Views/CommandeListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PrintPostBureau.Views.CommandeListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CommandeListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CommandeListPage.xaml
+
+[C:/Users/29ped/OneDrive/Documents/GitHub/PrintPostALPL/PrintPostBureau/Views/EventsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PrintPostBureau.Views.EventsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\EventsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\EventsPage.xaml
 
-[C:/Users/Leo/Source/Repos/PrintPostALPL/PrintPostBureau/Views/LoginPage.xaml]
+[C:/Users/29ped/OneDrive/Documents/GitHub/PrintPostALPL/PrintPostBureau/Views/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PrintPostBureau.Views.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
 
-[C:/Users/Leo/Source/Repos/PrintPostALPL/PrintPostBureau/Views/NewEventPage.xaml]
+[C:/Users/29ped/OneDrive/Documents/GitHub/PrintPostALPL/PrintPostBureau/Views/NewEventPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PrintPostBureau.Views.NewEventPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\NewEventPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\NewEventPage.xaml
 
-[C:/Users/Leo/Source/Repos/PrintPostALPL/PrintPostBureau/Views/SearchPage.xaml]
+[C:/Users/29ped/OneDrive/Documents/GitHub/PrintPostALPL/PrintPostBureau/Views/SearchPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PrintPostBureau.Views.SearchPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SearchPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\SearchPage.xaml
 
-[C:/Users/Leo/Source/Repos/PrintPostALPL/PrintPostBureau/Views/SettingsPage.xaml]
+[C:/Users/29ped/OneDrive/Documents/GitHub/PrintPostALPL/PrintPostBureau/Views/SettingsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PrintPostBureau.Views.SettingsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SettingsPage.xaml

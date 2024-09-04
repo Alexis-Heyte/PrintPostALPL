@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="PrintPostBureau.Views.CommandeDetailPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:vm="clr-namespace:PrintPostBureau.ViewModels"
+    xmlns:local="clr-namespace:PrintPostBureau.Views"
+    x:DataType="vm:CommandeDetailViewModel"
+    mc:Ignorable="d">
+
+    <ContentPage.BackgroundColor>
+        <Color>#eef2f3</Color>
+        <!-- Very light blue for the background -->
+    </ContentPage.BackgroundColor>
+
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="20">
+            <!-- Titre pour la page de détails -->
+            <Label Text="Détails de la Commande" 
+                   FontSize="Large" 
+                   HorizontalOptions="Center" 
+                   TextColor="DarkBlue"/>
+
+            <StackLayout>
+                <Label Text="Date de Dépôt Souhaitée" 
+                       FontAttributes="Bold"
+                       TextColor="Black"/>
+                <Label Text="{Binding DateDepotSouhaite, StringFormat='{0:dd/MM/yyyy}'}" 
+                       TextColor="DarkGreen"/>
+
+                <Label Text="Date de Dépôt Réelle" 
+                       FontAttributes="Bold"
+                       TextColor="Black"/>
+                <DatePicker x:Name="DateDepotReellePicker" 
+                            Date="{Binding DateDepotReel}" 
+                            TextColor="DarkBlue"/>
+
+                <Button Text="Mettre à jour la date" 
+                        Clicked="OnUpdateDateClicked" 
+                        BackgroundColor="DarkBlue" 
+                        TextColor="White" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

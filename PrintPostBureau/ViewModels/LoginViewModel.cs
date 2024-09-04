@@ -1,8 +1,11 @@
-﻿namespace PrintPostBureau.ViewModels
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using System.ComponentModel;
+
+namespace PrintPostBureau.ViewModels
 {
-    public partial class LoginViewModel(IDialogService dialogService, INavigationService navigationService) : BaseViewModel(dialogService, navigationService)
+    public partial class LoginViewModel(IDialogService dialogService, INavigationService navigationService) : ObservableObject
     {
-        [RelayCommand]
-        private Task LoginAsync() => NavigationService.GoToAsync("//home");
+
     }
 }

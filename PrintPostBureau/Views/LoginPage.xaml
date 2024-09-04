@@ -5,19 +5,45 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:local="clr-namespace:PrintPostBureau"
     xmlns:vm="clr-namespace:PrintPostBureau.ViewModels"
-    Shell.NavBarIsVisible="False"
+    xmlns:local="clr-namespace:PrintPostBureau.Views"
     x:DataType="vm:LoginViewModel"
     mc:Ignorable="d">
+
+    <!-- Utilisation d'un arrière-plan coloré pour la page -->
+    <ContentPage.BackgroundColor>
+        <Color>#f0f8ff</Color>
+        <!-- Light blue background -->
+    </ContentPage.BackgroundColor>
+
     <ContentPage.Content>
-        <StackLayout
-            HorizontalOptions="Center"
-            VerticalOptions="Center">
-            <Button
-                Command="{x:Bind LoginCommand}"
-                Style="{StaticResource PrimaryAction}"
-                Text="Login" />
+        <StackLayout Padding="40" Spacing="20" VerticalOptions="Center">
+
+            <!-- Ajout d'un titre coloré -->
+            <Label Text="Bienvenue chez PrintPost" 
+                   FontSize="Large" 
+                   HorizontalOptions="Center"
+                   TextColor="DarkBlue"/>
+
+            <Entry Placeholder="Nom d'utilisateur" 
+                   x:Name="UsernameEntry" 
+                   TextColor="Black" 
+                   BackgroundColor="White" 
+                   PlaceholderColor="Gray"/>
+
+            <Entry Placeholder="Mot de passe" 
+                   x:Name="PasswordEntry" 
+                   IsPassword="True" 
+                   TextColor="Black" 
+                   BackgroundColor="White" 
+                   PlaceholderColor="Gray"/>
+
+            <Button Text="Connexion" 
+                    Clicked="OnLoginClicked" 
+                    BackgroundColor="DarkBlue" 
+                    TextColor="White" 
+                    FontAttributes="Bold"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

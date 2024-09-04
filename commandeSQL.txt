@@ -1,0 +1,41 @@
+INSERT INTO Client (siret, email, raisonSocial, mntPenalite) VALUES 
+('19600556600012', 'contact@banquepopulaire.fr', 'Banque Populaire', 410.00),
+('28945620400024', 'contact@gmf.fr', 'GMF', 250.00),
+('89325695200014', 'contact@creditmutuel.fr', 'Crédit Mutuel', 320.00),
+('12378965400084', 'contact@bnpparibas.fr', 'BNP Paribas', 390.00),
+('98732145600007', 'contact@axa.fr', 'AXA', 500.00),
+('74125896300089', 'contact@caisse-epargne.fr', 'Caisse d’Épargne', 550.00),
+('96325874100056', 'contact@macif.fr', 'Macif', 710.00);
+
+INSERT INTO Feuille (epaisseur, prix, poids) VALUES 
+('Fine', 9.08, 4.4),
+('Normale', 10.01, 5.0),
+('Épaisse', 11.96, 5.6);
+
+INSERT INTO Encre (nom, prix) VALUES 
+('Noir', 19.23),
+('Couleur', 26.42);
+
+INSERT INTO Enveloppe (taille, logo, prix, poids) VALUES 
+('Petite', 0, 15.02, 3.2),
+('Grande', 0, 21.32, 9.8),
+('Petite', 1, 17.19, 3.2),
+('Grande', 1, 23.41, 9.8);
+
+INSERT INTO Affranchissement (nom, prix20gOuMoins, prixPlus20g) VALUES 
+('Économique', 0.76, 1.21),
+('Normal', 0.80, 1.32),
+('Urgent', 0.99, 1.60),
+('Recommandé sans AR', 3.87, 4.31),
+('Recommandé avec AR', 5.50, 6.15);
+
+-- Récupérer les Id correspondants
+DECLARE @IdClient INT = (SELECT IdClient FROM Client WHERE raisonSocial = 'AXA');
+DECLARE @IdFeuille INT = (SELECT IdFeuille FROM Feuille WHERE epaisseur = 'Normale');
+DECLARE @IdEncre INT = (SELECT IdEncre FROM Encre WHERE nom = 'Couleur');
+DECLARE @IdEnveloppe INT = (SELECT IdEnveloppe FROM Enveloppe WHERE taille = 'Petite' AND logo = 1);
+DECLARE @IdAffranchissement INT = (SELECT IdAffranchissement FROM Affranchissement WHERE nom = 'Urgent');
+
+-- Insertion de la commande
+INSERT INTO Commande (nbrCourriers, nbrFeuillets, dateCreation, dateDepotSouhaite, dateDepotReel, mntDevise, mntFacture, IdAffranchissement, IdEnveloppe, IdEncre, IdFeuille, IdClient) 
+VALUES (4500, 2, '2020-12-10 00:00:00', '2020-12-14 00:00:00', NULL, 4806.28, NULL, @IdAffranchissement, @IdEnveloppe, @IdEncre, @IdFeuille, @IdClient);

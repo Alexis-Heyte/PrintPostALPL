@@ -1,0 +1,22 @@
+USE [PrintPostALPL]
+GO
+/****** Object:  StoredProcedure [dbo].[InsererCommandesAleatoires20Fois]    Script Date: 04/09/2024 13:42:00 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER PROCEDURE [dbo].[InsererCommandesAleatoires20Fois]
+AS
+BEGIN
+    DECLARE @i INT = 1;
+
+    -- Boucle pour exécuter 20 fois
+    WHILE @i <= 20
+    BEGIN
+        -- Appel de la procédure d'insertion aléatoire
+        EXEC InsererCommandeAleatoire;
+
+        -- Incrémenter le compteur
+        SET @i = @i + 1;
+    END;
+END;

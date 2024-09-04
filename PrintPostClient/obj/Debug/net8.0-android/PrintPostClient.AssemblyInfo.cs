@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrintPostClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+03f701f76679eeab0928b625ff2390ceb0becf47")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+aef5c1a4178f4c09b5047db23452eda15b12c86b")]
->>>>>>> origin/alexis
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+eb74847faa7d1b2367445d5adcd0bd933fc41772")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrintPostClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrintPostClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

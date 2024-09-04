@@ -26,9 +26,9 @@
         Uncomment the below section to enable Shell Flyout item(s)
         And ensure appropriate page definitions are available for it work as expected
     -->
-    <FlyoutItem Title="Calendar">
+    <FlyoutItem Title="Login">
         <ShellContent
-            ContentTemplate="{DataTemplate vw:EventsPage}"
+            ContentTemplate="{DataTemplate vw:LoginPage}"
             Route="home" />
     </FlyoutItem>
     <FlyoutItem Title="Search">
