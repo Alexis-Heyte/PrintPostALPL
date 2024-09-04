@@ -8,13 +8,13 @@ namespace PrintPostALPL.Context
 {
     public static class Verifier
     {
-        static readonly private int minCourriers = 1_000;
-        static readonly private int maxCourriers = 50_000;
+        static readonly public int minCourriers = 1_000;
+        static readonly public int maxCourriers = 50_000;
 
-        static readonly private int minFeuilles = 1;
-        static readonly private int maxFeuilles = 10;
+        static readonly public int minFeuilles = 1;
+        static readonly public int maxFeuilles = 10;
 
-        static readonly private List<short> typesFeuilles = new List<short>() {
+        static readonly public List<short> typesFeuilles = new List<short>() {
             0, // Fine
             1, // Normale
             2 // Épaisse

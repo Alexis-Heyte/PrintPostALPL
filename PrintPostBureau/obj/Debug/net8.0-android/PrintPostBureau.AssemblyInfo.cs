@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrintPostBureau")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+aef5c1a4178f4c09b5047db23452eda15b12c86b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+aa59d36364f839fcad4388c035171e953b4378cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrintPostBureau")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrintPostBureau")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
