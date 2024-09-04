@@ -1,7 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
-using CommunityToolkit.Mvvm.Input;
 using PrintPostALPL.Context.Models;
-using System.ComponentModel;
+using System;
 
 namespace PrintPostBureau.ViewModels
 {
@@ -9,7 +8,6 @@ namespace PrintPostBureau.ViewModels
     {
         private Commande _commande;
 
-        // Le constructeur prend une instance de Commande
         public CommandeDetailViewModel(Commande commande)
         {
             _commande = commande;
@@ -24,7 +22,7 @@ namespace PrintPostBureau.ViewModels
                 if (_commande.DateDepotSouhaite != value)
                 {
                     _commande.DateDepotSouhaite = value;
-                    OnPropertyChanged(nameof(DateDepotSouhaite));  // Notifier le changement
+                    OnPropertyChanged(nameof(DateDepotSouhaite));
                 }
             }
         }
@@ -38,8 +36,28 @@ namespace PrintPostBureau.ViewModels
                 if (_commande.DateDepotReel != value)
                 {
                     _commande.DateDepotReel = value;
-                    OnPropertyChanged(nameof(DateDepotReel));  // Notifier le changement
+                    OnPropertyChanged(nameof(DateDepotReel));
+                    OnPropertyChanged(nameof(Penalite)); // Met à jour la pénalité
                 }
+            }
+        }
+
+        // Propriété pour la Pénalité
+        public decimal? Penalite
+        {
+            get
+            {
+                if (_commande.DateDepotReel.HasValue && _commande.DateDepotSouhaite.HasValue)
+                {
+                    // Calcul de la pénalité seulement si la date réelle est après la date souhaitée
+                    if (_commande.DateDepotReel > _commande.DateDepotSouhaite)
+                    {
+                        TimeSpan delay = _commande.DateDepotReel.Value - _commande.DateDepotSouhaite.Value;
+                        decimal? penaliteParJour = _commande.IdClientNavigation.MntPenalite; // Le montant de pénalité par jour pour ce client
+                        return penaliteParJour * (decimal)delay.TotalDays;
+                    }
+                }
+                return 0;
             }
         }
     }

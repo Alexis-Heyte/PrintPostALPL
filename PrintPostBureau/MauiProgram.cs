@@ -22,8 +22,6 @@ namespace PrintPostBureau
             builder.Services.AddSingleton<CommandeListPage>();
             builder.Services.AddSingleton<CommandeDetailViewModel>();
             builder.Services.AddSingleton<CommandeDetailPage>();
-            builder.Services.AddSingleton<EventsViewModel>();
-            builder.Services.AddSingleton<EventsPage>();
             builder.Services.AddSingleton<SearchViewModel>();
             builder.Services.AddSingleton<SearchPage>();
             builder.Services.AddSingleton<SettingsViewModel>();

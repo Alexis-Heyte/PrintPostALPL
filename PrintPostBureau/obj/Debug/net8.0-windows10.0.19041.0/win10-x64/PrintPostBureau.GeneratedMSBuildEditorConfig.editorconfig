@@ -54,12 +54,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = PrintPostBureau.Views.Comm
 build_metadata.AdditionalFiles.TargetPath = Views\CommandeListPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CommandeListPage.xaml
 
-[C:/Users/29ped/OneDrive/Documents/GitHub/PrintPostALPL/PrintPostBureau/Views/EventsPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = PrintPostBureau.Views.EventsPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Views\EventsPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Views\EventsPage.xaml
-
 [C:/Users/29ped/OneDrive/Documents/GitHub/PrintPostALPL/PrintPostBureau/Views/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PrintPostBureau.Views.LoginPage.xaml

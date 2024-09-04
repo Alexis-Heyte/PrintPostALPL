@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-09-04T12:27:47.412</Modified>
+      <Modified>2024-09-04T14:04:36.029</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-09-04T08:02:36.346</Modified>
+      <Modified>2024-09-04T12:46:37.022</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PrintPostBureau.runtimeconfig.json">
       <PackagePath>PrintPostBureau.runtimeconfig.json</PackagePath>
-      <Modified>2024-09-04T12:27:47.043</Modified>
+      <Modified>2024-09-04T12:46:36.956</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\PrintPostBureau.dll">
       <PackagePath>PrintPostBureau.dll</PackagePath>
-      <Modified>2024-09-04T12:27:46.143</Modified>
+      <Modified>2024-09-04T14:04:34.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PrintPostBureau.exe</PackagePath>
-      <Modified>2024-09-04T12:27:45.682</Modified>
+      <Modified>2024-09-04T14:04:34.451</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -56,23 +56,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-100.png">
       <PackagePath>appiconfgSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-09-04T06:56:54.542</Modified>
+      <Modified>2024-09-04T12:44:45.711</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-125.png">
       <PackagePath>appiconfgSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-09-04T06:56:54.558</Modified>
+      <Modified>2024-09-04T12:44:45.728</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-150.png">
       <PackagePath>appiconfgSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-09-04T06:56:54.579</Modified>
+      <Modified>2024-09-04T12:44:45.750</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-200.png">
       <PackagePath>appiconfgSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-09-04T06:56:54.609</Modified>
+      <Modified>2024-09-04T12:44:45.788</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-400.png">
       <PackagePath>appiconfgSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-09-04T06:56:54.728</Modified>
+      <Modified>2024-09-04T12:44:45.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -84,23 +84,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-09-04T06:56:56.394</Modified>
+      <Modified>2024-09-04T12:44:47.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-09-04T06:56:56.393</Modified>
+      <Modified>2024-09-04T12:44:47.859</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-09-04T06:56:56.393</Modified>
+      <Modified>2024-09-04T12:44:47.859</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-09-04T06:56:56.393</Modified>
+      <Modified>2024-09-04T12:44:47.859</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-09-04T06:56:56.393</Modified>
+      <Modified>2024-09-04T12:44:47.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -528,11 +528,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostALPL.Context\bin\Debug\net8.0\PrintPostALPL.Context.dll">
       <PackagePath>PrintPostALPL.Context.dll</PackagePath>
-      <Modified>2024-09-04T12:36:32.900</Modified>
+      <Modified>2024-09-04T12:46:28.634</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\OneDrive\Documents\GitHub\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\PrintPostBureau.deps.json">
       <PackagePath>PrintPostBureau.deps.json</PackagePath>
-      <Modified>2024-09-04T12:27:47.189</Modified>
+      <Modified>2024-09-04T12:46:37.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\29ped\.nuget\packages\humanizer.core\2.14.1\lib\net6.0\Humanizer.dll">
       <PackagePath>Humanizer.dll</PackagePath>

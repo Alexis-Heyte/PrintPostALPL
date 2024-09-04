@@ -23,7 +23,7 @@
                    HorizontalOptions="Center" 
                    TextColor="DarkBlue"/>
 
-            <StackLayout>
+            <StackLayout Padding="20" Spacing="20">
                 <Label Text="Date de Dépôt Souhaitée" 
                        FontAttributes="Bold"
                        TextColor="Black"/>
@@ -37,6 +37,13 @@
                             Date="{Binding DateDepotReel}" 
                             TextColor="DarkBlue"/>
 
+                <!-- Affichage de la pénalité -->
+                <Label Text="Pénalité" 
+                       FontAttributes="Bold"
+                       TextColor="Black"/>
+                <Label Text="{Binding Penalite, StringFormat='{0:C}'}" 
+                       TextColor="Red"/>
+                
                 <Button Text="Mettre à jour la date" 
                         Clicked="OnUpdateDateClicked" 
                         BackgroundColor="DarkBlue" 
