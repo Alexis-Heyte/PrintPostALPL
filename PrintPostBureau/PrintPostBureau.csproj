@@ -32,6 +32,8 @@
 
         <!-- Minimum Target OS Version for Windows Platform -->
         <TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <Platforms>AnyCPU;x64;x86</Platforms>
     </PropertyGroup>
 
     <ItemGroup>
@@ -44,18 +46,18 @@
         <MauiFont Include="Resources\Fonts\*" />
         <!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
         <MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+		<MauiAsset Update="Resources\Images\appicon.svg"></MauiAsset>
     </ItemGroup>
 
     <ItemGroup>
-      <MauiImage Remove="Resources\Images\dotnet_bot_bureau.svg" />
+      <MauiImage Remove="Resources\Images\dotnet_bot.svg" />
     </ItemGroup>
 
     <ItemGroup>
         <None Remove="PrintPostBureau.code-workspace" />
         <None Remove="Directory.Packages.props" />
-        <None Remove="Resources\appicon_bureau.svg" />
+        <None Remove="Resources\appicon.svg" />
         <None Remove="Resources\Images\dotnet_bot.svg" />
-        <None Remove="Resources\Images\dotnet_bot_bureau.svg" />
     </ItemGroup>
 
     <ItemGroup>

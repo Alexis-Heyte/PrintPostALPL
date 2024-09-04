@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostALPL.Tests\\PrintPostALPL.Tests.csproj": {}
+    "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Tests\\PrintPostALPL.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj": {
+    "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj",
+        "projectUniqueName": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj",
         "projectName": "PrintPostALPL.Context",
-        "projectPath": "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj",
-        "packagesPath": "C:\\Users\\alexv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostALPL.Context\\obj\\",
+        "projectPath": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj",
+        "packagesPath": "C:\\Users\\Leo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Context\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\VSSDK\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alexv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Leo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -87,24 +87,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostALPL.Tests\\PrintPostALPL.Tests.csproj": {
+    "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Tests\\PrintPostALPL.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostALPL.Tests\\PrintPostALPL.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Tests\\PrintPostALPL.Tests.csproj",
         "projectName": "PrintPostALPL.Tests",
-        "projectPath": "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostALPL.Tests\\PrintPostALPL.Tests.csproj",
-        "packagesPath": "C:\\Users\\alexv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostALPL.Tests\\obj\\",
+        "projectPath": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Tests\\PrintPostALPL.Tests.csproj",
+        "packagesPath": "C:\\Users\\Leo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\VSSDK\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alexv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Leo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -120,14 +120,14 @@
           "net8.0-windows10.0.19041": {
             "targetAlias": "net8.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj": {
-                "projectPath": "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj"
+              "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj": {
+                "projectPath": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj"
               },
-              "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostBureau\\PrintPostBureau.csproj": {
-                "projectPath": "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostBureau\\PrintPostBureau.csproj"
+              "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostBureau\\PrintPostBureau.csproj": {
+                "projectPath": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostBureau\\PrintPostBureau.csproj"
               },
-              "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostClient\\PrintPostClient.csproj": {
-                "projectPath": "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostClient\\PrintPostClient.csproj"
+              "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostClient\\PrintPostClient.csproj": {
+                "projectPath": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostClient\\PrintPostClient.csproj"
               }
             }
           }
@@ -169,19 +169,23 @@
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.8.0, )"
+              "version": "[17.11.0, )"
             },
             "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.2, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.5.3, )"
+              "version": "[2.9.0, )"
             },
             "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.5.3, )"
+              "version": "[2.8.2, )"
             }
           },
           "imports": [
@@ -198,7 +202,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.31, 10.0.19041.31]"
+              "version": "[10.0.19041.34, 10.0.19041.34]"
             }
           ],
           "frameworkReferences": {
@@ -209,25 +213,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostBureau\\PrintPostBureau.csproj": {
+    "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostBureau\\PrintPostBureau.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostBureau\\PrintPostBureau.csproj",
+        "projectUniqueName": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostBureau\\PrintPostBureau.csproj",
         "projectName": "PrintPostBureau",
-        "projectPath": "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostBureau\\PrintPostBureau.csproj",
-        "packagesPath": "C:\\Users\\alexv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostBureau\\obj\\",
+        "projectPath": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostBureau\\PrintPostBureau.csproj",
+        "packagesPath": "C:\\Users\\Leo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostBureau\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "D:\\VSSDK\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alexv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Leo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -244,16 +248,16 @@
           "net8.0-android34.0": {
             "targetAlias": "net8.0-android",
             "projectReferences": {
-              "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj": {
-                "projectPath": "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj"
+              "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj": {
+                "projectPath": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj"
               }
             }
           },
           "net8.0-windows10.0.19041": {
             "targetAlias": "net8.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj": {
-                "projectPath": "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj"
+              "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj": {
+                "projectPath": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj"
               }
             }
           }
@@ -320,7 +324,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.7, )",
+              "version": "[8.0.8, )",
               "autoReferenced": true
             }
           },
@@ -343,7 +347,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
@@ -407,7 +411,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.31, 10.0.19041.31]"
+              "version": "[10.0.19041.34, 10.0.19041.34]"
             }
           ],
           "frameworkReferences": {
@@ -418,7 +422,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -439,21 +443,21 @@
         }
       }
     },
-    "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostClient\\PrintPostClient.csproj": {
+    "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostClient\\PrintPostClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostClient\\PrintPostClient.csproj",
+        "projectUniqueName": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostClient\\PrintPostClient.csproj",
         "projectName": "PrintPostClient",
-        "projectPath": "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostClient\\PrintPostClient.csproj",
-        "packagesPath": "C:\\Users\\alexv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostClient\\obj\\",
+        "projectPath": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostClient\\PrintPostClient.csproj",
+        "packagesPath": "C:\\Users\\Leo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostClient\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "D:\\VSSDK\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alexv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Leo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -470,16 +474,16 @@
           "net8.0-android34.0": {
             "targetAlias": "net8.0-android",
             "projectReferences": {
-              "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj": {
-                "projectPath": "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj"
+              "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj": {
+                "projectPath": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj"
               }
             }
           },
           "net8.0-windows10.0.19041": {
             "targetAlias": "net8.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj": {
-                "projectPath": "C:\\Users\\alexv\\source\\repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj"
+              "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj": {
+                "projectPath": "C:\\Users\\Leo\\Source\\Repos\\PrintPostALPL\\PrintPostALPL.Context\\PrintPostALPL.Context.csproj"
               }
             }
           }
@@ -546,7 +550,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.7, )",
+              "version": "[8.0.8, )",
               "autoReferenced": true
             }
           },
@@ -569,7 +573,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
@@ -633,7 +637,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.31, 10.0.19041.31]"
+              "version": "[10.0.19041.34, 10.0.19041.34]"
             }
           ],
           "frameworkReferences": {
@@ -644,7 +648,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
