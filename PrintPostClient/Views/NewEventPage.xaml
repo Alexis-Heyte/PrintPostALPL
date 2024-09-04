@@ -12,14 +12,15 @@
     mc:Ignorable="d">
     
     
-    <StackLayout Padding="10">
-        <!--<Entry Placeholder="Nombre de courriers" Keyboard="Numeric" Text="{Binding NbrCourriers}" />
+    <!--<StackLayout Padding="10">
+        <Entry Placeholder="Nombre de courriers" Keyboard="Numeric" Text="{Binding NbrCourriers}" />
         <Entry Placeholder="Nombre de feuillets par courrier" Keyboard="Numeric" Text="{Binding NbrFeuillets}" />
         <Picker Title="Type de Feuille" ItemsSource="{Binding Feuilles}" SelectedItem="{Binding SelectedFeuille}" />
         <Picker Title="Type d'Encre" ItemsSource="{Binding Encres}" SelectedItem="{Binding SelectedEncre}" />
         <Picker Title="Type d'Enveloppe" ItemsSource="{Binding Enveloppes}" SelectedItem="{Binding SelectedEnveloppe}" />
         <Picker Title="Type d'Affranchissement" ItemsSource="{Binding Affranchissements}" SelectedItem="{Binding SelectedAffranchissement}" />
         <DatePicker Date="{Binding DateDepotSouhaite}" MinimumDate="{Binding DateMinimum}" />
-        <Button Text="Calculer et Enregistrer" Command="{Binding CalculerEtEnregistrerCommandeCommand}" />-->
-    </StackLayout>
+        <Button Text="Calculer et Enregistrer" Command="{Binding CalculerEtEnregistrerCommandeCommand}" />
+    </StackLayout>-->
+    
 </ContentPage>

@@ -20,8 +20,8 @@ namespace PrintPostClient
             builder.Services.AddSingleton<INavigationService, NavigationService>();
             builder.Services.AddSingleton<HomeViewModel>();
             builder.Services.AddSingleton<HomePage>();
-            builder.Services.AddSingleton<CommandeViewModel>();
-            builder.Services.AddSingleton<CommandePage>();
+            builder.Services.AddTransient<CommandeViewModel>();
+            builder.Services.AddTransient<CommandePage>();
             builder.Services.AddSingleton<SettingsViewModel>();
             builder.Services.AddSingleton<SettingsPage>();
             builder.Services.AddTransient<LoginViewModel>();

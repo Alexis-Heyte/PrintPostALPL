@@ -2,10 +2,13 @@
 {
     public partial class CommandePage : ContentPage
     {
-        public CommandePage()
+        public CommandePage(CommandeViewModel viewModel)
         {
             InitializeComponent();
-            BindingContext = new CommandeViewModel();
+            viewModel.Title = "Liste Commandes";
+            BindingContext = viewModel;
+            SetBinding(Page.TitleProperty, new Binding(nameof(CommandeViewModel.Title)));
         }
+
     }
 }

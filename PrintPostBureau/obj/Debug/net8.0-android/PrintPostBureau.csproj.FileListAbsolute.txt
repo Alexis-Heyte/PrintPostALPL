@@ -1133,3 +1133,4 @@ C:\Users\alexv\source\repos\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-andro
 C:\Users\alexv\source\repos\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot_bureau.png
 C:\Users\alexv\source\repos\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot_bureau.png
 C:\Users\alexv\source\repos\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot_bureau.png
+C:\Users\alexv\source\repos\PrintPostALPL\PrintPostBureau\obj\Debug\net8.0-android\PrintPostBureau.sourcelink.json
