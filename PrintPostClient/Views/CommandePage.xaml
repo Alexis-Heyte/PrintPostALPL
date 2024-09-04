@@ -5,26 +5,35 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
     xmlns:local="clr-namespace:PrintPostClient"
     xmlns:vm="clr-namespace:PrintPostClient.ViewModels"
     x:DataType="vm:CommandeViewModel"
     xmlns:m="clr-namespace:PrintPostALPL.Context.Models;assembly=PrintPostALPL.Context"
-    Title="Commandes"
     mc:Ignorable="d">
 
-    <StackLayout Padding="10">
-        <Button Text="Nouvelle Commande" Command="{Binding AjouterCommandeCommand}" />
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior
+            EventName="Appearing"
+            Command="{Binding ActualiserCommand}" />
+    </ContentPage.Behaviors>
 
-        <CollectionView ItemsSource="{Binding Commandes}">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <StackLayout Padding="10">
-                        <Label Text="Commande ID: {Binding IdCommande}" FontAttributes="Bold" />
-                        <Label Text="Nombre de courriers: {Binding NbrCourriers}" />
-                        <Label Text="Montant devisé: {Binding MntDevise, StringFormat='{0:C}'}" />
-                    </StackLayout>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-    </StackLayout>
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Button Text="Nouvelle Commande" Command="{Binding AddCommandeCommand}" />
+
+            <CollectionView ItemsSource="{Binding Commandes}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="m:Commande">
+                        <StackLayout Padding="10" Spacing="5">
+                            <Label Text="{Binding IdCommande}" FontAttributes="Bold" />
+                            <Label Text="{Binding NbrCourriers}" />
+                            <Label Text="{Binding MntDevise, StringFormat='{0:C}'}" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+
 </ContentPage>

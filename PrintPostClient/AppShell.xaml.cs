@@ -12,7 +12,7 @@
         private void RegisterRoutes()
         {
             Routing.RegisterRoute("listpage", typeof(CommandePage));
-            Routing.RegisterRoute("addcommand", typeof(NewEventPage));
+            Routing.RegisterRoute("addcommande", typeof(NewEventPage));
             Routing.RegisterRoute("newevent", typeof(NewEventPage));
         }
 

@@ -7,6 +7,7 @@ C:\Users\alexv\source\repos\PrintPostALPL\PrintPostALPL.Context\obj\Debug\net8.0
 C:\Users\alexv\source\repos\PrintPostALPL\PrintPostALPL.Context\obj\Debug\net8.0\PrintPostALPL.Context.AssemblyInfoInputs.cache
 C:\Users\alexv\source\repos\PrintPostALPL\PrintPostALPL.Context\obj\Debug\net8.0\PrintPostALPL.Context.AssemblyInfo.cs
 C:\Users\alexv\source\repos\PrintPostALPL\PrintPostALPL.Context\obj\Debug\net8.0\PrintPostALPL.Context.csproj.CoreCompileInputs.cache
+C:\Users\alexv\source\repos\PrintPostALPL\PrintPostALPL.Context\obj\Debug\net8.0\PrintPostALPL.Context.sourcelink.json
 C:\Users\alexv\source\repos\PrintPostALPL\PrintPostALPL.Context\obj\Debug\net8.0\PrintPostALPL.Context.dll
 C:\Users\alexv\source\repos\PrintPostALPL\PrintPostALPL.Context\obj\Debug\net8.0\refint\PrintPostALPL.Context.dll
 C:\Users\alexv\source\repos\PrintPostALPL\PrintPostALPL.Context\obj\Debug\net8.0\PrintPostALPL.Context.pdb

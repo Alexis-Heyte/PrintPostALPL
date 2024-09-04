@@ -42,6 +42,26 @@
         <member name="P:PrintPostClient.ViewModels.BaseViewModel.Title">
             <inheritdoc cref="F:PrintPostClient.ViewModels.BaseViewModel._title"/>
         </member>
+        <member name="T:PrintPostClient.ViewModels.CommandeViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:PrintPostClient.ViewModels.CommandeViewModel.Commandes">
+            <inheritdoc cref="F:PrintPostClient.ViewModels.CommandeViewModel._commandes"/>
+        </member>
+        <member name="F:PrintPostClient.ViewModels.CommandeViewModel.actualiserCommand">
+            <summary>The backing field for <see cref="P:PrintPostClient.ViewModels.CommandeViewModel.ActualiserCommand"/>.</summary>
+        </member>
+        <member name="P:PrintPostClient.ViewModels.CommandeViewModel.ActualiserCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PrintPostClient.ViewModels.CommandeViewModel.ActualiserAsync"/>.</summary>
+        </member>
+        <member name="F:PrintPostClient.ViewModels.CommandeViewModel.addCommandeCommand">
+            <summary>The backing field for <see cref="P:PrintPostClient.ViewModels.CommandeViewModel.AddCommandeCommand"/>.</summary>
+        </member>
+        <member name="P:PrintPostClient.ViewModels.CommandeViewModel.AddCommandeCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PrintPostClient.ViewModels.CommandeViewModel.AddCommandeAsync"/>.</summary>
+        </member>
         <member name="T:PrintPostClient.ViewModels.HomeViewModel">
             <inheritdoc/>
         </member>
@@ -64,6 +84,9 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+        </member>
+        <member name="P:PrintPostClient.ViewModels.NewEventViewModel.Commandes">
+            <inheritdoc cref="F:PrintPostClient.ViewModels.NewEventViewModel._commandes"/>
         </member>
         <member name="P:PrintPostClient.ViewModels.NewEventViewModel.Event">
             <inheritdoc cref="F:PrintPostClient.ViewModels.NewEventViewModel._event"/>
@@ -776,6 +799,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Commandes">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Commandes" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Event">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Event" generated properties.</summary>
         </member>
@@ -802,6 +828,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Commandes">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Commandes" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Event">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Event" generated properties.</summary>

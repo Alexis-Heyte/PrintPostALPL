@@ -8,7 +8,7 @@ namespace PrintPostClient.Views
         {
             InitializeComponent();
             BindingContext = viewModel;
-            viewModel.Title = "Accueil";
+            viewModel.Title = "Connexion";
             SetBinding(Page.TitleProperty, new Binding(nameof(HomeViewModel.Title)));
         }
     }
